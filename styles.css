@@ -412,6 +412,10 @@ h2 {
     min-height: 88vh;
   }
 
+  .hero-image {
+    object-position: 72% center;
+  }
+
   .hero-content {
     width: calc(100% - 36px);
     margin: 0 auto;
@@ -436,6 +440,10 @@ h2 {
 }
 
 @media (max-width: 560px) {
+  .hero-image {
+    object-position: 79% center;
+  }
+
   h1 {
     font-size: 52px;
   }
